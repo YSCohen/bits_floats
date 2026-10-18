@@ -140,7 +140,7 @@ fp32_info_t fp32_decode(uint32_t bits)
     return info;
 }
 
-double two_to_the_n(int n)
+static double two_to_the_n(int n)
 {
     double ans = 1.0;
     for (int i = n; i > 0; i--) {
