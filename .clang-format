@@ -1,0 +1,6 @@
+---
+Language: C
+BasedOnStyle: WebKit
+
+AllowShortIfStatementsOnASingleLine: WithoutElse
+IndentCaseLabels: true
